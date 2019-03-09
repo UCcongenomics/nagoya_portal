@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nagoya Protocol</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    * {
+    	box-sizing: border-box;
+    }
+    body {
+    	margin: 0;
+    	font-family: Arial, Helvetica, sans-serif;
+    }
+    #marg{
+      padding-right:70px;
+    	padding-left:70px;
+    }
+    .img-circle{
+    	border-radius:50%;
+    }
+    #news{
+    	padding:20px;
+    }
+    footer{
+      background-color: #57731E;
+    	color: white;
+    	padding-top:30px;
+    	padding-left:70px;
+    	padding-bottom:30px;
+    }
+    div.transbox {
+      margin-left: 30px;
+      background-color: #ffffff;
+		  border: 1px solid black;
+      opacity: 0.8;
+      filter: alpha(opacity=60);
+		  position:absolute;
+      top:25%;right:50%;
+      padding:20px;
+    }
+    div.transbox p {
+      margin: 5%;
+      color: #000000;
+    }
+    /*nav bar*/
+    .navbar{
+		  background-color:#57731E;
+		  color:white;
+      padding-right:25px;
+    }
+    ul.dropdown-menu{
+      background-color: white;
+    }
+    li a{
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+  <!--nav bar-->
+  	<div class="navbar">
+    	<div class="navbar-header">
+      		<a class="navbar-brand" href="#home"><img src="logo.jpg" style="height:100%"></a>
+    	</div>
+    	<ul class="nav navbar-nav">
+      	<li><a href="#home">Home</a></li>
+      	<li class="dropdown"><a data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+        	<ul class="dropdown-menu">
+          	<li><a href="#">About the Nagoya Protocol</a></li>
+          	<li><a href="#">About the Site</a></li>
+        		<li><a href="#">Member Countries</a></li>
+        	</ul>
+      	</li>
+      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources <span class="caret"></span></a>
+      		<ul class="dropdown-menu">
+      			<li><a href="#">Guides</a></li>
+          	<li><a href="#">Use Cases</a></li>
+        		<li><a href="#">Benefit Sharing</a></li>
+            <li><a href="#">Learn More</a></li>
+      		</ul>
+    		</li>
+    		<li><a href="#">Ask an Expert</a></li>
+    	</ul>
+    	<ul class="nav navbar-nav navbar-right">
+      	<li>
+        	<div class="search-container" style="padding-top:10px">
+          	<form action="/action_page.php">
+          	<input type="text" placeholder="Search.." name="search">
+        		<button type="submit"><i class="fa fa-search"></i></button>
+        		</form>
+        	</div>
+      	</li>
+      	<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+    	</ul>
+  	</div>
+
+  <!--carousel-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="image1.jpg" style="width:100%">
+      </div>
+      <div class="item">
+        <img src="image2.jpg" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="image3.jpg" style="width:100%;">
+      </div>
+    </div>
+  </div>
+
+  <!--box text-->
+  <div class="transbox">
+    <center><h3>The Nagoya Protocol on Access and Benefit Sharing</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a class="btn btn-primary" href="#" role="button">Read More</a></center>
+  </div>
+
+  <br><br><br>
+
+  <!--goals-->
+  <h1><center>The Nagoya Protocol Aims To</center></h1><br>
+  <div id="marg">
+    <div class="row">
+      <div class="col-sm-4">
+        <center><img class="img-circle" src="image4.jpg" style="width:200px;height:200px"></center>
+        <a href="#"><h4><center><strong>Goal 1</strong></center></h4></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-sm-4">
+        <center><img class="img-circle" src="image5.jpg" style="width:200px;height:200px"></center>
+        <a href="#"><h4><center><strong>Goal 2</strong></center></h4></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-sm-4">
+        <center><img class="img-circle" src="image6.jpg" style="width:200px;height:200px"></center>
+        <a href="#"><h4><center><strong>Goal 3</strong></center></h4></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <!--news & updates-->
+    <h1><center>News and Updates</center></h1>
+    <div style="height:450px;width:100%;border:3px solid #333;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+      <div class="row" id="news">
+        <div class="col-sm-4">
+          <img src="image7.jpg" style="width:100%;height:150px">
+        </div>
+        <div class="col-sm-8">
+          <a href="#"><h4><strong><u>Title</u></strong></h4></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="row" id="news">
+        <div class="col-sm-4">
+          <img src="image8.jpg" style="width:100%;height:150px">
+        </div>
+        <div class="col-sm-8">
+          <a href="#"><h4><strong><u>Title</u></strong></h4></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="row" id="news">
+        <div class="col-sm-4">
+          <img src="image9.jpg" style="width:100%;height:"150px">
+        </div>
+        <div class="col-sm-8">
+          <a href="#"><h4><strong><u>Title</u></strong></h4></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!--website goals-->
+    <div class="row">
+    	<div class="col-sm-4">
+    		<center><img src="logo.jpg" style="height:100px"></center>
+    	</div>
+    	<div class="col-sm-8">
+    		<h3>The Nagoya Protocol Education Portal</h3>
+    		<br>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+  <!--footer-->
+  <footer>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="#" style="color:white">Contact Us</a><br>
+        <a href="#" style="color:white">Site Map</a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#" style="color:white">Terms of Use</a><br>
+        <a href="#" style="color:white">Privacy Policy</a>
+      </div>
+      <div class="col-sm-4">
+        <p>DISCLAIMER STATEMENT</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

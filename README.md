@@ -1,3 +1,3 @@
 Nagoya Protocal Learning Portal
 
-https://uccongenomics.github.io/nagoya_portal/
+[LearnNagoya.com](https://learnnagoya.com)
